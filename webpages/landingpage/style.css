@@ -1,0 +1,112 @@
+body{
+	font-size:16px;
+	color: #fff;
+	background-color: #611227;
+	font-family: 'Oxygen' san-serif;	 
+}
+.container{
+	float: left;
+}
+#header-nav{
+	background-color: #f6b319;
+    border: 0;
+}
+
+#logo-img{
+	background:url('logo.jpg');
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-left: -1px;
+}
+.navbar-brand{
+	padding-top: 25px;
+
+}
+.navbar-brand h1{
+	font-family: 'Lora',san-serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform:uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-bottom: 0;
+	margin-top: 0;
+	line-height: .75;
+	margin-left: -1px;
+	margin-right: 600px;
+	float: left;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration:none; 
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #951c49;
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+
+#nav-list a span{
+	font-size: 1.8em;
+}
+#phone{
+	margin-top: 5px;
+}
+#phone a{
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div{
+color: #557c3e;
+text-align: right;
+padding-right: 16px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+.container .jumbotron{
+	box-shadow: 0 0 50px #3f0c1f;
+	border:2px solid #3f0c1f;
+	background-position: center; 
+}
+
+@media (min-width: 1200px){
+	.container .jumbotron{
+		background: url('resturant.jpg') no-repeat;
+		height: 675px;
+	}
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	#logo-img{
+		background: url('logo.jpg') no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+.navbar-brand{
+	
+	margin-right: 100px;
+	margin-top: -1px;
+}
+}
+@media (max-width: 767px){
+
+}
